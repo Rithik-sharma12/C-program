@@ -47,3 +47,26 @@ int main() {
  BFS(adj, start, n);
  return 0;
 }
+
+
+
+https://kali.download/kali/pool/main/l/linux/
+
+wget http://kali.download/kali/pool/main/l/linux/linux-headers-6.11.2-common_6.11.2-1kali1_all.deb
+
+ wget http://kali.download/kali/pool/main/l/linux/linux-kbuild-6.11.2_6.11.2-1kali1_amd64.deb
+ 
+ wget http://kali.download/kali/pool/main/l/linux/linux-headers-6.11.2-amd64_6.11.2-1kali1_amd64.deb
+
+
+ dpkg -i linux-headers-6.11.2-common_6.11.2-1kali1_all.deb
+
+ dpkg -i linux-kbuild-6.11.2_6.11.2-1kali1_amd64.deb
+ 
+ dpkg -i linux-headers-6.11.2-amd64_6.11.2-1kali1_amd64.deb
+
+
+
+sudo git clone https://github.com/morrownr/8821au-20210708.git
+cd 8821au-20210708
+sudo apt install bc
